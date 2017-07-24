@@ -63,7 +63,7 @@ class CircuitBot extends Adapter
     # default configuration for http requests
     defaults =
       headers:
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/x-www-form-urlencoded'
       baseUrl: @conf.circuitDomain
 
     request = request.defaults defaults
